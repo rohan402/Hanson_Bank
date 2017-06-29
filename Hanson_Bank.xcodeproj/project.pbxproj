@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46EB497E1F05413B003C4B58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB497D1F05413B003C4B58 /* AppDelegate.swift */; };
+		46EB49801F05413B003C4B58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB497F1F05413B003C4B58 /* ViewController.swift */; };
+		46EB49831F05413B003C4B58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EB49811F05413B003C4B58 /* Main.storyboard */; };
+		46EB49851F05413B003C4B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB49841F05413B003C4B58 /* Assets.xcassets */; };
+		46EB49881F05413B003C4B58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EB49861F05413B003C4B58 /* LaunchScreen.storyboard */; };
+		46EB49931F05413B003C4B58 /* Hanson_BankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB49921F05413B003C4B58 /* Hanson_BankTests.swift */; };
+		46EB499E1F05413B003C4B58 /* Hanson_BankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EB499D1F05413B003C4B58 /* Hanson_BankUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46EB498F1F05413B003C4B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB49721F05413A003C4B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46EB49791F05413B003C4B58;
+			remoteInfo = Hanson_Bank;
+		};
+		46EB499A1F05413B003C4B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB49721F05413A003C4B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46EB49791F05413B003C4B58;
+			remoteInfo = Hanson_Bank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46EB497A1F05413B003C4B58 /* Hanson_Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hanson_Bank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB497D1F05413B003C4B58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46EB497F1F05413B003C4B58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46EB49821F05413B003C4B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46EB49841F05413B003C4B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46EB49871F05413B003C4B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46EB49891F05413B003C4B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46EB498E1F05413B003C4B58 /* Hanson_BankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hanson_BankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB49921F05413B003C4B58 /* Hanson_BankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hanson_BankTests.swift; sourceTree = "<group>"; };
+		46EB49941F05413B003C4B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46EB49991F05413B003C4B58 /* Hanson_BankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hanson_BankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB499D1F05413B003C4B58 /* Hanson_BankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hanson_BankUITests.swift; sourceTree = "<group>"; };
+		46EB499F1F05413B003C4B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46EB49771F05413B003C4B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB498B1F05413B003C4B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB49961F05413B003C4B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46EB49711F05413A003C4B58 = {
+			isa = PBXGroup;
+			children = (
+				46EB497C1F05413B003C4B58 /* Hanson_Bank */,
+				46EB49911F05413B003C4B58 /* Hanson_BankTests */,
+				46EB499C1F05413B003C4B58 /* Hanson_BankUITests */,
+				46EB497B1F05413B003C4B58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46EB497B1F05413B003C4B58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46EB497A1F05413B003C4B58 /* Hanson_Bank.app */,
+				46EB498E1F05413B003C4B58 /* Hanson_BankTests.xctest */,
+				46EB49991F05413B003C4B58 /* Hanson_BankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46EB497C1F05413B003C4B58 /* Hanson_Bank */ = {
+			isa = PBXGroup;
+			children = (
+				46EB497D1F05413B003C4B58 /* AppDelegate.swift */,
+				46EB497F1F05413B003C4B58 /* ViewController.swift */,
+				46EB49811F05413B003C4B58 /* Main.storyboard */,
+				46EB49841F05413B003C4B58 /* Assets.xcassets */,
+				46EB49861F05413B003C4B58 /* LaunchScreen.storyboard */,
+				46EB49891F05413B003C4B58 /* Info.plist */,
+			);
+			path = Hanson_Bank;
+			sourceTree = "<group>";
+		};
+		46EB49911F05413B003C4B58 /* Hanson_BankTests */ = {
+			isa = PBXGroup;
+			children = (
+				46EB49921F05413B003C4B58 /* Hanson_BankTests.swift */,
+				46EB49941F05413B003C4B58 /* Info.plist */,
+			);
+			path = Hanson_BankTests;
+			sourceTree = "<group>";
+		};
+		46EB499C1F05413B003C4B58 /* Hanson_BankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46EB499D1F05413B003C4B58 /* Hanson_BankUITests.swift */,
+				46EB499F1F05413B003C4B58 /* Info.plist */,
+			);
+			path = Hanson_BankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46EB49791F05413B003C4B58 /* Hanson_Bank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB49A21F05413B003C4B58 /* Build configuration list for PBXNativeTarget "Hanson_Bank" */;
+			buildPhases = (
+				46EB49761F05413B003C4B58 /* Sources */,
+				46EB49771F05413B003C4B58 /* Frameworks */,
+				46EB49781F05413B003C4B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hanson_Bank;
+			productName = Hanson_Bank;
+			productReference = 46EB497A1F05413B003C4B58 /* Hanson_Bank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46EB498D1F05413B003C4B58 /* Hanson_BankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB49A51F05413B003C4B58 /* Build configuration list for PBXNativeTarget "Hanson_BankTests" */;
+			buildPhases = (
+				46EB498A1F05413B003C4B58 /* Sources */,
+				46EB498B1F05413B003C4B58 /* Frameworks */,
+				46EB498C1F05413B003C4B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB49901F05413B003C4B58 /* PBXTargetDependency */,
+			);
+			name = Hanson_BankTests;
+			productName = Hanson_BankTests;
+			productReference = 46EB498E1F05413B003C4B58 /* Hanson_BankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46EB49981F05413B003C4B58 /* Hanson_BankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB49A81F05413B003C4B58 /* Build configuration list for PBXNativeTarget "Hanson_BankUITests" */;
+			buildPhases = (
+				46EB49951F05413B003C4B58 /* Sources */,
+				46EB49961F05413B003C4B58 /* Frameworks */,
+				46EB49971F05413B003C4B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB499B1F05413B003C4B58 /* PBXTargetDependency */,
+			);
+			name = Hanson_BankUITests;
+			productName = Hanson_BankUITests;
+			productReference = 46EB49991F05413B003C4B58 /* Hanson_BankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46EB49721F05413A003C4B58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rohan Patel";
+				TargetAttributes = {
+					46EB49791F05413B003C4B58 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					46EB498D1F05413B003C4B58 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46EB49791F05413B003C4B58;
+					};
+					46EB49981F05413B003C4B58 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46EB49791F05413B003C4B58;
+					};
+				};
+			};
+			buildConfigurationList = 46EB49751F05413A003C4B58 /* Build configuration list for PBXProject "Hanson_Bank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46EB49711F05413A003C4B58;
+			productRefGroup = 46EB497B1F05413B003C4B58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46EB49791F05413B003C4B58 /* Hanson_Bank */,
+				46EB498D1F05413B003C4B58 /* Hanson_BankTests */,
+				46EB49981F05413B003C4B58 /* Hanson_BankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46EB49781F05413B003C4B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB49881F05413B003C4B58 /* LaunchScreen.storyboard in Resources */,
+				46EB49851F05413B003C4B58 /* Assets.xcassets in Resources */,
+				46EB49831F05413B003C4B58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB498C1F05413B003C4B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB49971F05413B003C4B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46EB49761F05413B003C4B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB49801F05413B003C4B58 /* ViewController.swift in Sources */,
+				46EB497E1F05413B003C4B58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB498A1F05413B003C4B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB49931F05413B003C4B58 /* Hanson_BankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB49951F05413B003C4B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB499E1F05413B003C4B58 /* Hanson_BankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46EB49901F05413B003C4B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46EB49791F05413B003C4B58 /* Hanson_Bank */;
+			targetProxy = 46EB498F1F05413B003C4B58 /* PBXContainerItemProxy */;
+		};
+		46EB499B1F05413B003C4B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46EB49791F05413B003C4B58 /* Hanson_Bank */;
+			targetProxy = 46EB499A1F05413B003C4B58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46EB49811F05413B003C4B58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46EB49821F05413B003C4B58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46EB49861F05413B003C4B58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46EB49871F05413B003C4B58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46EB49A01F05413B003C4B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46EB49A11F05413B003C4B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46EB49A31F05413B003C4B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hanson_Bank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HansonBank.Hanson-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		46EB49A41F05413B003C4B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hanson_Bank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HansonBank.Hanson-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		46EB49A61F05413B003C4B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Hanson_BankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HansonBank.Hanson-BankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hanson_Bank.app/Hanson_Bank";
+			};
+			name = Debug;
+		};
+		46EB49A71F05413B003C4B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Hanson_BankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HansonBank.Hanson-BankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hanson_Bank.app/Hanson_Bank";
+			};
+			name = Release;
+		};
+		46EB49A91F05413B003C4B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Hanson_BankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HansonBank.Hanson-BankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hanson_Bank;
+			};
+			name = Debug;
+		};
+		46EB49AA1F05413B003C4B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Hanson_BankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HansonBank.Hanson-BankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hanson_Bank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46EB49751F05413A003C4B58 /* Build configuration list for PBXProject "Hanson_Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB49A01F05413B003C4B58 /* Debug */,
+				46EB49A11F05413B003C4B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB49A21F05413B003C4B58 /* Build configuration list for PBXNativeTarget "Hanson_Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB49A31F05413B003C4B58 /* Debug */,
+				46EB49A41F05413B003C4B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46EB49A51F05413B003C4B58 /* Build configuration list for PBXNativeTarget "Hanson_BankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB49A61F05413B003C4B58 /* Debug */,
+				46EB49A71F05413B003C4B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46EB49A81F05413B003C4B58 /* Build configuration list for PBXNativeTarget "Hanson_BankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB49A91F05413B003C4B58 /* Debug */,
+				46EB49AA1F05413B003C4B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46EB49721F05413A003C4B58 /* Project object */;
+}
